@@ -20,12 +20,8 @@ var _sb3_active_timers = [];
 function sb3_init() {
     sb3_update_teams();
     sb3_set_message(null);
-    var t = 60000;
-    if (sb3_main === 1) {
-        t = 15000;
-    }
     _sb3_active_timers.push(setInterval(sb3_marquee, 25));
-    _sb3_active_timers.push(setInterval(sb3_update_teams, t));
+    _sb3_active_timers.push(setInterval(sb3_update_teams, 60000));
     _sb3_active_timers.push(setInterval(sb3_update_beacons, 50));
 }
 function sb3_freeze() {
@@ -464,4 +460,3 @@ function sb3_draw_event() {
         }
     }
 }
-
