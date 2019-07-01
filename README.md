@@ -1,4 +1,6 @@
-# Scorebot Core
+# Scorebot Core (dook fork)
+
+Trying to get an understanding of this, and include my own notes
 
 Scorebot is a scoring engine for CTF competitions.
 It is built upon a Blue Team / Red Team model, where Blue Teams defend flags against Red teams. (Blue Teams may also attack other Blue Teams to steal flags).
